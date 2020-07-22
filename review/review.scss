@@ -1,0 +1,86 @@
+header {
+    
+    .mainvisual {
+        background-image: url(../img/mainvisual-bg-inner.png);
+        height: 100px;
+        
+        .mainvisual-inner {
+            width: 90%;
+            margin: auto;
+            
+            
+            
+            .mainvisual-title {
+                font-size: 20px;
+                font-weight: bold;
+                background-color: #FF8A26;
+                display: inline-block;
+                padding: 10px 40px 10px 20px;
+                line-height: 1;
+                
+                span {
+                    font-size: 14px;
+                    font-weight: #EAEAEA;
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+}
+
+
+
+main {
+    
+    .review-contents {
+        margin: 80px 0;
+        
+        .review-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 10px 0;
+        }
+        
+        img {
+            margin: 0 0 10px 0;
+        }
+        
+        .review-text {
+            font-size: 14px;
+            border-bottom: 1px solid #f1f1f1;
+            padding: 5px 0;
+        }
+        
+        .review-tag {
+            display: flex;
+            justify-content: flex-start;
+            margin: 0;
+            padding: 0;
+            
+            li {
+                font-size: 14px;
+                color: #FFF;
+                margin: 10px 10px 0 0;
+                background-color: #D3D3D3;
+                padding: 1px 5px 1px 5px;
+                display: inline-block;
+            }
+            
+            li:first-of-type {
+                background-color: #333;
+            }
+        }
+    }
+    
+    .news {
+        .catgory-title {
+            text-align: left;
+            margin: 20px 0 0 0;
+            
+            span {
+                color: #333;
+                font-weight: bold;
+            }
+        }
+    }
+}

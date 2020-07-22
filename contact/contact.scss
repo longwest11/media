@@ -1,0 +1,47 @@
+header {
+    .mainvisual {
+        background-image: url(../img/mainvisual-bg-inner.png);
+        height: 100px;
+        
+        .mainvisual-inner {
+            width: 90%;
+            margin: auto;
+            
+            
+            
+            .mainvisual-title {
+                font-size: 20px;
+                font-weight: bold;
+                background-color: #333;
+                display: inline-block;
+                padding: 10px 40px 10px 20px;
+                line-height: 1;
+                
+                span {
+                    font-size: 14px;
+                    font-weight: #EAEAEA;
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    main {
+        width: 1300px;
+        margin: auto;
+        
+        .contact {
+            width: 500px;
+            margin: auto;
+        }
+    }
+}
